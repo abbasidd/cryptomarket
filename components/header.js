@@ -1,7 +1,7 @@
 // import { ConnectButton } from '@web3uikit/web3'
 import Image from 'next/image'
 // import Search from '../assets/svg/search'
-// import { ConnectButton } from 'web3uikit'
+import { ConnectButton } from 'web3uikit'
 // import { useContext } from 'react'
 // import { CoinMarketContext } from '../context/context'
 
@@ -23,7 +23,7 @@ const Header = () => {
     <div className={styles.header}>
       <Image
         alt=''
-        src='https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_white_1.svg'
+        src='https://biblock.io/images/logo/dark-mode-logo.png'
         width={220}
         height={220}
       />
