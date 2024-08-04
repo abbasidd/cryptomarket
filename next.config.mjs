@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
 
-    domains: ['biblock.io'],
+    domains: ['biblock.io','https:/encrypted-tbn0.gstatic.com'],
 
   },
 };

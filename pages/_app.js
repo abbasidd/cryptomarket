@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 // import { MoralisProvider } from 'react-moralis'
-// import { GunProvider } from '../context/gunContext'
+import { GunProvider } from '../context/gunContext'
 import { CoinMarketProvider } from '../context/context'
 // import { MoralisProvider } from 'react-moralis'
 
@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }) {
     //   // serverUrl='https://gqasdf4tkkiu.usemoralis.com:2053/server'
     //   // appId='TL0YJzCoVXgYv0fMKfzmgD52UaoaMllZI1DxTJWJ'
     // >
-      // {/* // <GunProvider> */}
+      <GunProvider> 
         <CoinMarketProvider>
           <Component {...pageProps} />
         </CoinMarketProvider>
-      // {/* // </GunProvider> */}
+       </GunProvider>
     //  </MoralisProvider>
   )
 }
