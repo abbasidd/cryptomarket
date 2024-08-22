@@ -11,6 +11,8 @@
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
     "@moralisweb3/next": "^2.27.0",
+    "framer-motion": "^11.3.27",
+    "framer-motion-ticker": "^1.0.19",
     "gun": "^0.2020.1240",
     "magic-sdk": "^28.2.0",
     "moralis": "^1.11.0",
@@ -18,6 +20,7 @@
     "next": "14.2.5",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18",
     "react-moralis": "^1.3.5",
     "react-switch": "^7.0.0",
